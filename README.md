@@ -450,7 +450,7 @@ python -m sglang.launch_server --model-path LGAI-EXAONE/EXAONE-3.5-7.8B-Instruct
 ```
 
 > [!Note]
-> In case of using EXAONE 3.5 2.4B model, you need to install sglang>=0.3.6 and use `--attention-backedn triton` option.
+> In case of using EXAONE 3.5 2.4B model, you need to install sglang>=0.3.6 and use `--attention-backend triton` option.
 
 3. Send a request with the following curl command after the server starts.
 
